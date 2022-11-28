@@ -4,5 +4,6 @@ services:
   network-speed:
     build: .
     container_name: network-speed
-    network_mode: host
+    ports:
+      - "8000:8000"
 
