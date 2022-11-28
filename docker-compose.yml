@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  network-speed:
+    build: .
+    container_name: network-speed
+    network_mode: host
+
